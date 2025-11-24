@@ -1,0 +1,24 @@
+name: responsi_124230168
+description: "Responsi Prak PAM"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  http: ^1.1.0          # Untuk API TheMealDB
+  hive: ^2.2.3          # Database Login
+  hive_flutter: ^1.1.0  # Hive Flutter
+  url_launcher: ^6.2.1  # [WAJIB] Untuk tombol Youtube di soal
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
